@@ -21,7 +21,7 @@ var server = http.createServer(function (req, res) {
         res.writeHead(404);
 });
 
-server.listen(80); /
+server.listen(80); 
 
 console.log('Coded by GaLViN (C)')
 console.log('')
