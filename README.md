@@ -10,3 +10,5 @@
 
 ## How To Use
 (node index.js)
+
+![image](https://media.discordapp.net/attachments/742918463567298560/753807279740026890/unknown.png)
