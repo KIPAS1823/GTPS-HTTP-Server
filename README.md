@@ -3,7 +3,7 @@
 # How To Use (windows)
 (node index.js)
 
-#How to use (linux)
+# How to use (linux)
 (sudo node index.js)
 
 
