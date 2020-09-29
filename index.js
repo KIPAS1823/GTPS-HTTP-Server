@@ -16,8 +16,6 @@ var server = http.createServer(function (req, res) {
         res.writeHead(404);
 });
 
-server.listen(80); 
-
-console.log('Coded by GaLViN (C)')
-console.log('')
-console.log('[STATUS] Port 80 is Enable!')
+server.listen(80);
+console.log('Port 80 is Up...')
+console.log('Simple HTTP coded by NodeJS')
