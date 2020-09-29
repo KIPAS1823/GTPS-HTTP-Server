@@ -10,4 +10,6 @@ This http only receive ``POST`` Packet, in Route ``growtopia/server_data.php``. 
 # How to use (linux)
 (sudo node index.js)
 
+![image](https://cdn.discordapp.com/attachments/752489288377172000/760470795704336384/unknown.png)
+
 
