@@ -2,7 +2,7 @@
 Simple http server coded by NodeJS
 
 ## About GTPS-HTTP-Server
-This http only receive ``POST`` Packet, in Route ``growtopia/server_data.php``. so it will block all request apart ``growtopia/server_data.php`` ``POST`` log. And this http will always show ``logs`` when someone log Growtopia Server.
+This http only receive ``POST`` Packet, in Route ``growtopia/server_data.php``.it will block all request apart ``growtopia/server_data.php`` ``POST`` log, so it will will minimize overload in HTTP Server. And this http will always show ``logs`` when someone log Growtopia Server.
 
 # How To Use (windows)
 (node index.js)
