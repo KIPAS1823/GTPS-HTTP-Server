@@ -10,7 +10,7 @@ var server = http.createServer(function (req, res) {
 		}	
 	}
 	   else  
-console.log('[Uknown-Request] ' + req.connection.remoteAddress)
+console.log('[Unknown-Request] ' + req.connection.remoteAddress)
 req.destroy();
 });
 
