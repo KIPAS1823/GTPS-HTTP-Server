@@ -1,3 +1,4 @@
+  
 var http = require('http'); 
 
 var server = http.createServer(function (req, res) {   
@@ -8,6 +9,9 @@ var server = http.createServer(function (req, res) {
         res.write('server|127.0.0.1\nport|17091\ntype|1\n#maint|Simple HTTP Server by NodeJS ~GalvinID \n\nbeta_server|127.0.0.1\nbeta_port|17091\n\nbeta_type|1\nmeta|localhost\nRTENDMARKERBS1001');
 		}	
 	}
+	   else  
+		   console.log('[Uknown-Request] ' + req.connection.remoteAddress)
+req.destroy();
 });
 
 server.listen(80);
