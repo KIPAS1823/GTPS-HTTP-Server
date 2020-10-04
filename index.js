@@ -11,8 +11,7 @@ var server = http.createServer(function (req, res) {
 		}	
 	}
 	   else  
-console.log('[Uknown-Request] ' + req.connection.remoteAddress + ' In Route ' + req.url)
-req.destroy();
+res.writeHead(404);
 });
 
 server.listen(80);
