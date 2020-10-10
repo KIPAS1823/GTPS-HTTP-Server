@@ -6,7 +6,7 @@ var server = http.createServer(function (req, res) {
 var ipAddress = req.connection.remoteAddress;
 		 if (ipAddress.substr(0, 7) == "::ffff:") {
     ipAddress = ipAddress.substr(7)
-  }
+  } //convert req.connection.remoteAddress to ipAddress without ::ffff:
     
     if (req.url == "/growtopia/server_data.php") {
         if(req.method == "POST") {
