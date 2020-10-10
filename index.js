@@ -27,6 +27,7 @@ var ipAddress = req.connection.remoteAddress;
 		}	
 	}
 	   else  
+console.log('Unknown Request from ' + ipAddress + 'in Route ' + req.url + 'With Method ' + req.method) //all request except growtopia/server_data.php
 res.writeHead(404);
 });
 
