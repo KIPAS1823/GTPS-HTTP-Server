@@ -15,6 +15,6 @@ TokyoID https://github.com/TokyoID17
 # How to use (linux)
 (sudo node index.js)
 
-![image](https://cdn.discordapp.com/attachments/752489288377172000/760470795704336384/unknown.png)
+![image](https://cdn.discordapp.com/attachments/742689636304027668/764417846860054538/unknown.png)
 
 
