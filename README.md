@@ -4,7 +4,7 @@ Simple http server coded by NodeJS
 ## About GTPS-HTTP-Server
 This http only receive ``POST`` request, in route ``growtopia/server_data.php``.This http will always show ``logs`` when someone log ``growtopia/server_data.php`` (Growtopia Server).
 ## Update
-1.Added players data like ip, http version, and etc (when log growtopia/server_data.php with ``POST`` Method)
+1. Added players data like ip, http version, and etc (when log growtopia/server_data.php with ``POST`` Method)
 
 # Credit
 TokyoID https://github.com/TokyoID17
